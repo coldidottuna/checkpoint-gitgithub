@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping-cart</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- iconscout -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    
+    <main class="cartcard">
+        <h1>your shopping cart</h1>
+
+        <div class="cart-items">
+           <!-- premier article -->
+           <div class="cart-rows">
+
+                <img src="/assets/iphone11.png" alt="" class="img-product" >
+                Apple IPhone 11 – 4G - 12 Mpx <br> – 6.1’’- 4/64 Go - Noir
+                
+                <span class="price">954 <span>$</span></span>
+
+                <button class="like-btn">
+                <i class="uil uil-heart"></i>
+                </button>
+            
+                <div class="quantity-btn">
+                 <button class="btn minus">-</button>
+                 <input type="number" value ="1" readonly class="quantity" min="0">
+                 <button class="btn plus">+</button>
+                </div>
+            
+                <button class="delete-btn">
+                 <i class="uil uil-trash-alt"></i>
+                </button>
+                
+           </div>
+           <!-- deuxième article -->
+           <!-- <div class="cart-rows">
+
+                <img src="/assets/iphone13.png" alt="" class="img-product" >
+                Apple IPhone 13 – 4G - 12 Mpx <br> – 6.1’’- 4/64 Go - Noir
+                
+                <span class="price">1235$</span>
+
+                <button class="like-btn">
+                <i class="uil uil-heart"></i>
+                </button>
+            
+                <div class="quantity-btn">
+                 <button class="btn minus">-</button>
+                 <input type="number" value ="1" readonly class="quantity">
+                 <button class="btn plus">+</button>
+                </div>
+            
+                <button class="delete-btn">
+                 <i class="uil uil-trash-alt"></i>
+                </button>
+
+           </div> -->
+
+        
+        </div>
+
+        <div class="checkout">
+            <button class=" checkout-btn new-article">
+                Add new product
+            </button>
+            <div class="total">
+                Total : <span class="total-price"></span>
+                <br>
+                <!-- <button class="checkout-btn order-now">
+                   Order now : <span></span>
+                </button> -->
+            </div>
+            <button class="checkout-btn cart-clean">
+                Delete Cart
+            </button>
+
+        </div>
+    </main>
+    
+
+   
+    <script src="index.js"></script>
+</body>
+</html>

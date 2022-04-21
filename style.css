@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(202, 200, 200);
+   height: 1200px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cartcard{
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 40px;
+    margin: 50px;
+
+}
+.cart-rows{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    font-weight: normal;
+    font-size: 25px;
+    border-bottom: 1px solid orange;
+}
+.img-product{
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
+input{
+    width: 30px;
+    height: 15px;
+}
+.like-btn{
+ border: none;
+ background-color: white;
+ font-size: 20px;
+ 
+}
+.btn-liked{
+    color: red;
+}
+/* .alt:hover{
+    color: red;
+} */
+.btn{
+    border-radius: 2px;
+}
+#plus_btn:hover {
+    background-color: rgb(108, 182, 155); 
+}
+#minus_btn:hover{
+    background-color: rgb(229, 140, 140)
+    ;
+}
+
+.checkout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 160px;
+    border-top: 2px solid orange;
+    padding-top: 40px;
+}
+.total{
+    display: block;
+}
+
+.checkout-btn{
+    border-radius: 3px;
+    background-color: rgb(248, 169, 24);
+    color: white;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: medium;
+    font-weight: bold;
+
+}
